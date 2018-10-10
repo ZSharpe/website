@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link type="text/css" rel="stylesheet" href="../css/customstyle.css">
-    <link type="text/css" rel="stylesheet" href="../css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/customstyle.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
@@ -12,14 +12,14 @@
 
 <!--Begin Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand text-white" href="index.html">Zach Sharpe</a>
+    <a class="navbar-brand text-white" href="index.html"><img src="assets/zsharpelogo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto d-flex justify-content-end">
             <li class="nav-item active">
                 <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -35,12 +35,6 @@
                     <a class="dropdown-item text-white" href="aboutme.html">About Me</a>
                 </div>
             </li>
-            <!--Dropdown Menu-->
-
-            <li class="nav-item">
-                <a class="nav-link disabled text-white" href="#">Disabled</a>
-            </li>
-
             <li class="nav-link navbar">
                 <i class="fab fa-linkedin-in text-white"></i>
             </li>
@@ -49,11 +43,50 @@
 </nav>
 <!--End Navbar-->
 
-<div class="container bg-dark text-white text-center"">
-    <img src="../assets/profilephoto.jpeg" class="img-thumbnail rounded-circle mx-auto" alt="Profile Picture">
-    <br>
-    <caption class="align-content-center">Hello! My name is Zach Sharpe</caption>
+<!--Jumbotron Intro-->
+<div class="fullpage container bg-dark text-center text-white jumbotron">
+    <h1>Hello! My name is Zach Sharpe, a software engineer.</h1>
 </div>
+
+<!--Technologies-->
+<div class="container text-white">
+    <!--Languages Row-->
+    <h2 class="text-center">Languages & Techologies</h2>
+    <br>
+    <div class="row text-center">
+        <div class="col">
+            <i class="fab fa-java" style="font-size:70px"></i>
+        </div>
+        <div class="col">
+            <i class="fab fa-html5" style="font-size:70px"></i>
+        </div>
+        <div class="col">
+            <i class="fab fa-css3-alt" style="font-size:70px"></i>
+        </div>
+        <div class="col">
+            <i class="fab fa-js" style="font-size:70px"></i>
+        </div>
+    </div>
+
+    <br>
+    <!--Technologies Row-->
+        <div class="row text-center">
+            <div class="col">
+                <img style="align:left" src="assets/maven.png">
+            </div>
+            <div class="col">
+                <img class="svgicon" style="align:left" src="assets/tomcat.svg">
+            </div>
+            <div class="col">
+                <img class="svgicon" style="align:left" src="assets/firebase.svg">
+            </div>
+            <div class="col">
+                <img class="svgicon" style="align:left" src="assets/mysql.svg">
+            </div>
+
+        </div>
+    </div>
+
 
 <!--Firebase Inclusion-->
 <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
