@@ -25,6 +25,11 @@
     margin:15px;
 }
 
+.pagefont {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+}
+
 /*body{*/
     /*padding-top: 70px;*/
 /*}*/
