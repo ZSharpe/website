@@ -30,6 +30,20 @@
     font-weight: lighter;
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: #999999;
+}
+a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*body{*/
     /*padding-top: 70px;*/
 /*}*/
