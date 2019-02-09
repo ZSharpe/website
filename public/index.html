@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Custome CSS sheet link -->
     <link type="text/css" rel="stylesheet" href="customstyle.css">
+    
+    <!-- Bootstrap framework -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <!-- Font awesome library -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Animate.css library -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 </head>
 
 <body class="bg-dark">
@@ -16,38 +26,21 @@
 <!--Begin Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top container-fluid bg-dark border-bottom">
 
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <!--Dropdown Menu-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Projects
-                </a>
-                <div class="dropdown-menu text-white bg-dark border-bottom" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item text-white" href="outlines.html">Software Concept Outlines</a>
-                    <a class="dropdown-item text-white" href="#">Java Projects</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-white" href="#">About Me</a>
-                </div>
-            </li>
-        </ul>
-
-        <!--Dropdown Menu - End-->
-
-        <!--Centered Logo-->
-        <ul class="navbar-nav mr-auto navbar-center">
             <a class="navbar-brand text-white" href="index.html">
-                <img src="assets/zsharpelogo.png">
+                <img src="assets/zsharpelogo.png" style="width: 32px; height: 40px;">
             </a>
+            <li>
+                <a class="nav-link text-white" href="outlines.html">Product Outlines</a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="https://github.com/zsharpe">Projects</a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="#">About Me</a>
+            </li>
         </ul>
+
 
         <!--Right side navbar (Social Icons)-->
             <ul class="nav navbar-nav navbar-right">
@@ -72,7 +65,6 @@
                     </a>
                 </li>
         </ul>
-    </div>
 </nav>
     <hr style="margin:0px;">
 <!--End Navbar-->
@@ -84,7 +76,7 @@
 </div>
 
 <!--Languages & Technologies Section-->
-<div class="container-fluid text-dark bg-white" style="padding: 50px">
+<div class="container-fluid text-dark bg-white aniview" style="padding: 50px">
     <!--Languages Row-->
     <div class="container-fluid text-dark">
     <h2 class="text-center" style="font-weight: lighter">Languages & Techologies</h2>
@@ -193,5 +185,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Custome JS Inclusion -->
+<script src="js\main.js"></script>
 </body>
 </html>
